@@ -1,5 +1,11 @@
 import React from "react";
+import styled from "@emotion/styled";
 
-const TodaysDate = () => <div>{`Today's date is ${Date()}`}</div>;
+
+const Title = styled.h1`
+  color: turquoise;
+`
+
+const TodaysDate = () => <Title>{`Today's date is ${Date()}`}</Title>;
 
 export default TodaysDate;
