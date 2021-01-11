@@ -6,6 +6,6 @@ const Title = styled.h1`
   color: turquoise;
 `
 
-const TodaysDate = () => <Title>{`Today's date is ${Date()}`}</Title>;
+const Library1 = () => <Title>{`Library 1`}</Title>;
 
-export default TodaysDate;
+export default Library1;
